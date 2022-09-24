@@ -247,7 +247,8 @@ img.card-img-top {
 .btn-contact:hover {
     color: white;
 }
-.icon-contact{
+
+.icon-contact {
     width: 25px !important;
     height: auto;
 }
