@@ -1,0 +1,253 @@
+/* all */
+@font-face {
+    font-family: 'quattrocento';
+    src: url(./assets/Quattrocento-Regular.ttf);
+}
+
+.chil {
+    padding-top: 75px;
+}
+
+.font-regular {
+    font-family: 'quattrocento';
+}
+
+.fz15 {
+    font-size: 15px !important;
+}
+
+.fz18 {
+    font-size: 18px !important;
+}
+
+.fz20 {
+    font-size: 20px !important;
+}
+
+.fz17 {
+    font-size: 17px !important;
+}
+
+.fz22 {
+    font-size: 22px !important;
+}
+
+.fz25 {
+    font-size: 30px !important;
+}
+
+.border-cus {
+    --color: orangered;
+    --position: center bottom;
+    --width: 5%;
+    --height: 5px;
+    background: linear-gradient(var(--color), var(--color)) var(--position) / var(--width) var(--height) no-repeat;
+    padding-bottom: 10px;
+    font: bold 2.5rem sans-serif;
+}
+
+.btn-details {
+    background-color: rgb(247, 19, 19) !important;
+    border-radius: 0 !important;
+    color: white;
+    font-weight: bolder;
+}
+
+.btn-details:hover {
+    color: white !important;
+}
+
+/* header */
+
+.logo-custom {
+    width: 75px !important;
+}
+
+.ip-custom {
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    width: 400px;
+    font-size: 25px !important;
+}
+
+.form-custom {
+    border-bottom: 1px solid #777777;
+    font-size: 25px;
+}
+
+.nav-custom {
+    font-size: 25px !important;
+}
+
+.icon-custom {
+    font-size: 35px !important;
+    color: black !important;
+}
+
+/* footer */
+.bg-footer {
+    background-color: #252531;
+    color: white;
+}
+
+/* home */
+
+.bg-undercarousel {
+    background-color: #001F33;
+    color: white !important;
+}
+
+.undercarousel {
+    font-size: 30px;
+    border-right: 3px solid white;
+}
+
+.ads-icon {
+    font-size: 40px !important;
+}
+
+.undercarousel-noborder {
+    font-size: 30px !important;
+}
+
+
+.border-radius-none {
+    border-radius: 0 !important;
+}
+
+img.card-img-top {
+    border-radius: 0 !important;
+}
+
+/* login/signup */
+
+.main-login {
+    min-height: 1010px;
+}
+
+.bg-login {
+    background-image: url(../images/login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.form-login {
+    width: 1110px !important;
+    height: 520px !important;
+    background-color: white;
+    opacity: 80%;
+}
+
+.form-signup {
+    width: 1110px !important;
+    height: 660px !important;
+    background-color: white;
+    opacity: 80%;
+}
+
+.ip-login {
+    width: 810px !important;
+    height: 90px !important;
+    margin-top: 30px !important;
+    border-radius: 0 !important;
+    padding-left: 30px !important;
+    font-size: 30px !important;
+}
+
+.btn-login {
+    width: 810px !important;
+    height: 90px !important;
+    border-radius: 10px !important;
+    background-color: red;
+    margin-top: 30px !important;
+    color: white;
+    font-size: 30px !important;
+}
+
+.btn-login:hover {
+    color: white;
+}
+
+/* news */
+
+.bg-gray {
+    background-color: #f3f3f3;
+}
+
+.img-news {
+    max-width: 250px;
+    border-right: 2px solid #808080 !important;
+}
+
+.media-cus {
+    border: 2px solid #808080 !important;
+}
+
+/* contact */
+
+.contact-info {
+    font-size: 22px !important;
+    margin-left: 100px !important;
+}
+
+.fb a {
+    color: #212529 !important;
+}
+
+.fb a:hover {
+    text-decoration: none !important;
+}
+
+.contact-form {
+    margin: 0 115px !important;
+    padding-top: 20px;
+}
+
+.ip-name {
+    padding: 12px 10px;
+    width: 275px;
+}
+
+.ip-phone {
+    padding: 12px 10px;
+}
+
+.ip-mail {
+    padding: 12px 10px;
+    width: 500px;
+}
+
+.ip-mess {
+    padding: 12px 10px;
+    width: 500px;
+}
+
+.ip-name,
+.ip-phone,
+.ip-mail,
+.ip-mess {
+    border-radius: 0 !important;
+    font-size: 18px;
+    border: 1px solid #7c7c7c !important;
+}
+
+.btn-contact {
+    background-color: rgb(247, 19, 19) !important;
+    border-radius: 0 !important;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 50px !important;
+    margin-left: 15px !important;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.btn-contact:hover {
+    color: white;
+}
+.icon-contact{
+    width: 25px !important;
+    height: auto;
+}
