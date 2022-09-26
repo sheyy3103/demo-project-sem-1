@@ -278,3 +278,37 @@ img.card-img-top {
     text-align: center;
     border-radius: 0 !important;
 }
+
+/* details */
+.ip-cus {
+    border: none;
+    outline: none;
+    width: 50px;
+}
+
+.btn-cus {
+    border: none;
+    border-left: 1px solid black !important;
+    border-right: 1px solid black !important;
+    border-radius: 0 !important;
+    width: 30px;
+    background-color: transparent;
+}
+
+.btn-cus:hover {
+    background-color: transparent;
+}
+
+.form-cus {
+    border-top: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+    width: 110px !important;
+}
+
+.btn-addtocart{
+    background-color: rgb(203, 6, 6);
+    border-radius: 0;
+    border: 1px solid rgb(203, 6, 6) !important;
+    color: white !important;
+    
+}
