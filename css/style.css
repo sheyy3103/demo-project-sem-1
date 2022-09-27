@@ -283,7 +283,7 @@ img.card-img-top {
 .ip-cus {
     border: none;
     outline: none;
-    width: 50px;
+    width: 40px;
 }
 
 .btn-cus {
@@ -302,13 +302,54 @@ img.card-img-top {
 .form-cus {
     border-top: 1px solid black !important;
     border-bottom: 1px solid black !important;
-    width: 110px !important;
+    width: 100px !important;
 }
 
-.btn-addtocart{
+.btn-addtocart {
     background-color: rgb(203, 6, 6);
     border-radius: 0;
     border: 1px solid rgb(203, 6, 6) !important;
     color: white !important;
-    
+
+}
+
+/* cart */
+
+.img-table {
+    width: 100px;
+    height: auto;
+}
+
+.text-decoration-underline {
+    text-decoration: underline !important;
+}
+
+a.btn.btn-outline-danger {
+    border-radius: 0 !important;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+select.custom-select.w-35 {
+    border-radius: 0 !important;
+    border: 1px solid #777777 !important;
+}
+
+.btn-discount {
+    margin: 10px 0;
+    text-decoration: none;
+    color: white !important;
+    border-radius: 0px !important;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    background-color: #0b219f;
+    background-image: linear-gradient(to right, #062090, #000);
+    color: white;
+}
+
+.btn-outline-secondary{
+    border-radius: 0 !important;
 }
